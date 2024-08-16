@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf) format('opentype');
+}
+
+*{
+    margin: 0px;
+}
+
+:root{
+    --cor1:#24e66ee5;
+    --cor2:#007755;
+    --cor3:#16e74a;
+    --cor4:#a2e7a2;
+    --font-android:'idroid';
+}
+
+body{
+    background-color: #34d87e7a;
+    
+}
+
+footer p{
+    
+    text-align:center ;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:20px ;
+    background-color: #007755;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 4px;
+    color:white;
+    font-family: 'idroid', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-size: small;
+}
+
+aside{
+    background-color:#82cfa585;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+header{
+    background-image: linear-gradient(to top, #00775579, #16e74a8a);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 7px -2px 6px 9px #00000062;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+nav a{
+    
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 6px;
+    margin: 0px 29px;
+} 
+
+nav a:hover{
+    color: #007755;
+    border-radius: 5px;
+    background-color:var(--cor4);
+}
+
+div{
+    margin: 12px 45px 12px 56px;
+}
+
+main{
+    margin: auto;
+    padding: 15px 0px 40px 0px;
+    background-color: white;
+    max-width: 710px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 4px 8px 3px #00000062;
+}
+
+main h2{
+    background-image: linear-gradient( to right, #34d87e7a, transparent);
+    padding-left: 10px;
+    color: var(--cor2);
+    margin: 5px 15px;
+    font-family: var(--font-android);
+}
+
+main a{
+    color: var(--cor2);
+    font-weight:bold ;
+    background-color:#34d87e7a ;
+}
+
+main a:hover{
+    background-color: transparent;
+}
+
+main p{
+    text-indent: 25px;
+    margin: 5px 15px;
+    text-align: justify;
+}
+
+img{
+    max-width: 98%;  
+}
+
+#bug{
+    margin-left: 25%;
+}
+
+#historia{
+    text-align: left;
+    color: var(--cor2);
+    margin: 0px 15px;
+}
+
+#saber{
+    color: white;
+    background-color: #007755;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    margin: auto;
+
+}
+
+strong{
+    color: var(--cor2);
+    font-weight:bold ;
+}
+
+ul{
+    columns: 2;
+    margin: 15px 0px;
+    list-style-type:'\2714\00A0';
+}
+
+p{
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
